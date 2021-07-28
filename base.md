@@ -35,6 +35,14 @@ git status
 撤销
 git restore
 
+撤销工作区更改
+git restore file
+
+撤销暂存区更改
+git restore --staged file
+
+
+
 <!-- 版本回退 -->
 
 用 HEAD 表示当前版本
