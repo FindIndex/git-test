@@ -66,3 +66,8 @@ git branch -M main
 git push -u origin main
 
 git push
+
+
+
+第一次拿别人的项目所有代码
+git clone git@github.com:FindIndex/git-test.git
