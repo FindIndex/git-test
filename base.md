@@ -64,3 +64,5 @@ git branch -M main
 
 推送到远程仓库
 git push -u origin main
+
+git push
