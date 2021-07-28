@@ -71,3 +71,5 @@ git push
 
 第一次拿别人的项目所有代码
 git clone git@github.com:FindIndex/git-test.git
+以后每次更新代码 用 
+git pull
