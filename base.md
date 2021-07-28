@@ -42,6 +42,9 @@ git restore file
 git restore --staged file
 
 
+<!-- 生成ssh-key -->
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
 
 <!-- 版本回退 -->
 
@@ -51,3 +54,13 @@ git reset --hard 12345
 
 
 git reflog 所有git 仓库 操作记录
+
+
+
+关联远程仓库
+git remote add origin git@github.com:FindIndex/git-test.git
+
+git branch -M main
+
+推送到远程仓库
+git push -u origin main
